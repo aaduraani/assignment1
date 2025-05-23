@@ -34,10 +34,10 @@
 </head>
 <body>
 <!--
-Name: Your Name
+Name: Aboobuker Durrani
 File: letter.html
 Date: 23 May 2025
-Description: Formal letter responding to a PhD application.
+Description: Formal letter responding to a PhD application using HTML5 structure and formatting.
 -->
 
 <address class="sender">
@@ -113,5 +113,6 @@ University of Awesome motto: "<q>Be awesome to each other.</q>" — <cite>The me
 
 </body>
 </html>
+
 
 
