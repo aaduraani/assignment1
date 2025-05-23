@@ -5,49 +5,42 @@
     <title>Letter to Prospective PhD Student</title>
     <meta name="author" content="Dr. Eleanor Gaye">
     <style>
-        html {
-            font-family: sans-serif;
-        }
-
         body {
+            font-family: Arial, sans-serif;
             width: 80%;
             max-width: 800px;
             margin: 0 auto;
         }
-
-        .sender-column {
+        .sender {
             text-align: right;
         }
-
         h1 {
             font-size: 1.5em;
         }
-
         h2 {
             font-size: 1.3em;
         }
-
-        p, ul, ol, dl, address {
+        p, ul, ol, address {
             font-size: 1.1em;
-        }
-
-        p, li, dd, dt, address {
             line-height: 1.5;
         }
-
         address {
             font-style: normal;
+        }
+        strong {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 <!--
-Name: Aboobuker Durrani
+Name: Your Name
 File: letter.html
 Date: 23 May 2025
-Brief description: A formal letter responding to a PhD application.
+Description: Formal letter responding to a PhD application.
 -->
-<address class="sender-column">
+
+<address class="sender">
 Dr. Eleanor Gaye<br>
 Faculty of Awesome Science<br>
 University of Awesome<br>
@@ -58,7 +51,7 @@ USA<br>
 <p>Phone: <strong>123-456-7890</strong><br>
 Email: <strong>no_reply@example.com</strong></p>
 
-<p>20 January 2016</p>
+<p><time datetime="2016-01-20">20 January 2016</time></p>
 
 <address>
 Miss Eileen Dover<br>
@@ -71,47 +64,53 @@ UK<br>
 
 <p>Dear Eileen,</p>
 
-<p>Thank you for sending your application to join the science faculty at the University of Awesome for your <abbr title="Doctor of Philosophy">PhD</abbr> studies next year. I’m happy to answer your questions below, one at a time.</p>
+<p>Thank you for your application to join the science faculty at the University of Awesome for your <abbr title="Doctor of Philosophy">PhD</abbr> studies next year. I’m happy to answer your questions below.</p>
 
 <h2>Start Dates</h2>
 
-<p>We’re flexible with your start date, but ideally, it would be easier if you began at the start of a semester. Here are the official start dates:</p>
+<p>We have flexible start dates, but it is easier if you begin at the start of a semester. The official start dates are:</p>
 
 <ul>
-  <li>First semester: 9 September 2016</li>
-  <li>Second semester: 15 January 2017</li>
-  <li>Third semester: 2 May 2017</li>
+  <li>First semester: <time datetime="2016-09-09">9 September 2016</time></li>
+  <li>Second semester: <time datetime="2017-01-15">15 January 2017</time></li>
+  <li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
 </ul>
 
-<p>Please let me know if any of these work for you, and which one you prefer.</p>
+<p>Please tell me which date works best for you.</p>
 
 <h2>Research Areas</h2>
 
-<p>Our faculty encourages a broad range of research topics as long as they fit within science and technology. You come across as a smart and committed researcher — exactly who we want here. Among your ideas, these caught our interest most, although we liked the rest too:</p>
+<p>Our faculty supports a wide range of research topics related to science and technology. Your ideas are interesting, especially:</p>
 
-<ul>
-  <li>Transforming H<sub>2</sub>O into wine and exploring the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>).</li>
-  <li>Studying how funk bass players perform at temperatures above 30°C (86°F), especially as audience size grows dramatically (from 10<sup>3</sup> to 10<sup>4</sup>).</li>
-  <li><abbr title="British Columbia">BC</abbr> nanoparticle accelerators designed for fissionable nanomaterials (unrelated to the Manhattan Project).</li>
-</ul>
+<ol>
+  <li>Transforming H<sub>2</sub>O into wine and studying health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>).</li>
+  <li>Studying how funk bass players perform in warm temperatures above 30°C (86°F), especially as audience size grows from 10<sup>3</sup> to 10<sup>4</sup>.</li>
+  <li><abbr title="British Columbia">BC</abbr> nanoparticle accelerators for fissionable nanomaterials (unrelated to the Manhattan Project).</li>
+</ol>
 
 <h2>Unusual Dance Studies</h2>
 
-<p>You asked about exotic dance moves. Yes, I did some postdoctoral work researching tribal dances. Here are a few of my favorites, with brief explanations:</p>
+<p>You asked about exotic dance moves. I have done some postdoctoral research on tribal dances. Some favorites are:</p>
 
-<ol>
-  <li>Polynesian chicken dance: An influential dance dating back to around 300<sup>BC</sup>.</li>
-  <li>Icelandic brownian shuffle: A warming dance practiced before fire was common in Iceland.</li>
-  <li>Arctic robot dance: A unique blend of Inuit drumming and funk robot moves.</li>
-</ol>
+<dl>
+  <dt>Polynesian chicken dance</dt>
+  <dd>A traditional dance dating back to about 300<sup>BC</sup>.</dd>
 
-<p>For more details, check out my <a href="http://example.com" title="More about my exotic dance research">exotic dance research page</a>.</p>
+  <dt>Icelandic brownian shuffle</dt>
+  <dd>A warming dance done before fire was common in Iceland.</dd>
+
+  <dt>Arctic robot dance</dt>
+  <dd>A mix of Inuit drumming and funk robot moves.</dd>
+</dl>
+
+<p>For more details, visit my <a href="http://example.com" title="More about my exotic dance research">exotic dance research page</a>.</p>
 
 <p>Sincerely,<br>
 <strong>Dr. Eleanor Gaye</strong><br>
 University of Awesome motto: "<q>Be awesome to each other.</q>" — <cite>The memoirs of Bill S Preston, <abbr title="Esquire">Esq</abbr>.</cite></p>
 
 <p><a href="http://example.com" title="University homepage">University of Awesome homepage</a></p>
+
 </body>
 </html>
 
